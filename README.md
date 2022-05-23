@@ -23,6 +23,4 @@
 
 ## Demo
 
-<p align="center">
-  <img width="470" src="src/assets/demo1.gif">
-</p>  
+![demo1](https://user-images.githubusercontent.com/89096854/169868662-598dc96e-29cc-4fc0-a685-0133f387717b.gif)
