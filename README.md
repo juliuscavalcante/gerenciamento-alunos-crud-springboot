@@ -12,7 +12,8 @@
 
 
 
-<h2> Ferramentas Utilizadas</h2>
+<h2> Tecnologias Utilizadas</h2>
+
 - Java
 - Spring Boot
 - JPA / Hibernate
