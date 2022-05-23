@@ -23,4 +23,4 @@
 
 ## Demo
 
-![demo1](https://user-images.githubusercontent.com/89096854/169868662-598dc96e-29cc-4fc0-a685-0133f387717b.gif)
+![demo](https://user-images.githubusercontent.com/89096854/169869631-957c4899-7fc7-4e4c-87b9-0c9c64e87c01.gif)
