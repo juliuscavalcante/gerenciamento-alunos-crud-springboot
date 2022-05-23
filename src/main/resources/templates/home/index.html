@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css">
+    <title>Sistema de Gerenciamento de Alunos</title>
+    <meta name="author" content="Julius Cavalcante">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/006642858d.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div th:replace="fragmentos/fragmentos :: cabecalho"></div>
+    <section class="neo-section" style="background-image: url('img/bg-index.jpg');">
+    <div class="sombra"></div>
+
+    <div class="center neo-container">
+        <h1 class="texto-centro">Sistema de Gerenciamento de Alunos</h1>
+
+    <div class="botoes">
+
+    <div class="wm">
+        <a th:href="@{inserirAlunos}" class="btn-index">CADASTRAR ALUNO</a>
+    </div>
+
+    <div class="wm">
+        <a th:href="@{filtro-alunos}" class="btn-index justify-content-center">ENCONTRAR ALUNO</a>
+    </div>
+
+    <div class="clear"></div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Inicio do Modal -->
+    <div class="modal fade" id="modalPesquisa">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <h5 class="modal-title">Encontre um Aluno</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                            <span>&times;</span>
+                    </button>
+                </div>
+
+                <form method="post" action="pesquisar-aluno" th:object="${aluno}">
+
+                <div class="modal-body">
+                    <input type="text" placeholder="Digite o nome do Aluno" th:field="*{nome}">
+                </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                        <button type="submit" class="btn btn-success">Pesquisar</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <div th:replace="fragmentos/fragmentos :: rodape"></div>
+    <script src="/webjars/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
+

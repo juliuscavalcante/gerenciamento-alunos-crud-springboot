@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css">
+  <title>Sistema de Gerenciamento de Alunos</title>
+  <meta name="author" content="Julius Cavalcante">
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+  <script src="https://kit.fontawesome.com/006642858d.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+</head>
+  <body>
+        <div class="Login-Form">
+          <div class="container">
+            <div class="main-div">
+              <div class="texto-header">
+                <h2>Cadastro de Usuário</h2>
+                <p>Crie seu usuário no sistema.</p>
+              </div>
+
+              <form method="post" th:object="${usuario}" action="salvarUsuario">
+                <div class="form-group">
+                  <input type="email" class="form-control" th:field="*{email}" placeholder="digite seu email">
+                </div>
+
+                <div class="form-group">
+                  <input type="text" class="form-control" th:field="*{user}" placeholder="username">
+                </div>
+
+                <div class="form-group">
+                  <input type="password" class="form-control" th:field="*{senha}" placeholder="senha">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+                <a th:href="@{/}" type="buttom" class="btn btn-info">Voltar</a>
+              </form>
+            </div>
+          </div>
+        </div>
+  </body>
+</html>

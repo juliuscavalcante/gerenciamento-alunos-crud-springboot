@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css">
+    <title>Encontrar Alunos</title>
+    <meta name="author" content="Julius Cavalcante">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/006642858d.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+</head>
+<body>
+<div th:replace="fragmentos/fragmentos :: cabecalho"></div>
+
+    <div class="container" style="margin-top: 20px;">
+
+    <h4>Encontrar Alunos</h4>
+    <hr>
+        <!-- Alunos ativos -->
+        <div class="row">
+            <div class="card" style="width: 288px">
+                <a th:href="@{/alunos-ativos}">
+                <img class="card-img-top" src="img/alunos.ativos.jpg"/>
+                </a>
+            <div class="card-body">
+                <h5 class="card-title">Todos os Alunos Ativos no Sistema</h5>
+                <p class="card-text">Lista de todos os alunos ativos no sistema.</p>
+                <a th:href="@{/alunos-ativos}" class="btn btn-outline-primary">Clique Aqui</a>
+            </div>
+        </div>
+        <!-- Alunos Invativos -->
+            <div class="card mx-lg-3" style="width: 288px">
+                <a th:href="@{/alunos-inativos}">
+                <img class="card-img-top" src="img/alunos.inativos.jpg"/>
+                </a>
+            <div class="card-body">
+                <h5 class="card-title">Todos os Alunos Inativos no Sistema</h5>
+                <p class="card-text">Lista de todos os alunos inativos no sistema.</p>
+                <a th:href="@{/alunos-inativos}" class="btn btn-outline-primary">Clique Aqui</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

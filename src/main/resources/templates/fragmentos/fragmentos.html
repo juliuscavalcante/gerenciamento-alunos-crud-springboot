@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css">
+    <title>Sistema de Gerenciamento de Alunos</title>
+    <meta name="author" content="Julius Cavalcante">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/006642858d.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+</head>
+    <body>
+    <!-- Header -->
+    <header th:fragment="cabecalho">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #7FDCE8FF">
+            <a th:href="@{/index}" class="navbar-brand" >
+                <img src="/img/logo-escola.png" width="100px"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMobile">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="navMobile" class="navbar-collapse collapse justify-content-end">
+
+                <a th:href="@{/index}" class="btn-nav nav-item nav-link"><i class="bi bi-house-door"></i> Home</a>
+                <a class="btn-nav nav-item nav-link" th:href="@{inserirAlunos}"><i class="bi bi-person-plus"></i> Cadastrar Aluno</a>
+                <a class="btn-nav nav-item nav-link" th:href="@{filtro-alunos}" ><i class="bi bi-search"></i> Pesquisar Aluno</a>
+                <form action="/logout" method="post">
+                <button type="submit" class="btn-nav-sair nav-item nav-link btn-danger"><i class="bi bi-box-arrow-right"></i>Sair</button>
+                </form>
+
+            </div>
+        </nav>
+    </header>
+    <!-- Footer -->
+    <footer th:fragment="rodape">
+        <div class="rodape">
+            <span>Todos os Direitos Reservados - 2022 &copy; Julius Cavalcante</span>
+        </div>
+    </footer>
+
+        <script src="/webjars/jquery/3.6.0/jquery.min.js"></script>
+        <script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
