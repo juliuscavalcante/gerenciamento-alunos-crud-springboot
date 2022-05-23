@@ -13,6 +13,14 @@
 
 
 <h2> Ferramentas Utilizadas</h2>
+- Java
+- Spring Boot
+- JPA / Hibernate
+- Maven
+- HTML/CSS/JS
+- Bootstrap
+- MySQL
+
   - Java
   - Spring Boot
   - JPA / Hibernate
