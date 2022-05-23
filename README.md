@@ -1,6 +1,6 @@
 # Projeto CRUD Springboot
 
-<h2> Sobre o Projeto:</h2>
+Sobre o Projeto:
 
 - O projeto conta com uma estrutura básica de CRUD (Create, Read, Update, Delete)
 - Aplicação WEB com Springboot
@@ -11,8 +11,7 @@
 - Salvando os dados em um banco de dados
 
 
-
-<h2> Tecnologias Utilizadas</h2>
+Tecnologias Utilizadas
 
 - Java
 - Spring Boot
