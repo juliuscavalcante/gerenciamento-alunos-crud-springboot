@@ -23,8 +23,6 @@
 
 ## Demo
 
-![demo]
-
 <p align="center">
   <img width="470" src="src/assets/demo1.gif">
 </p>  
