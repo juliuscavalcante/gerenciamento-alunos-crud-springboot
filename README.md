@@ -26,11 +26,11 @@ O projeto é gerenciado pelo Maven, para usa-lo basta importa-lo para uma IDE.
 ## Configurações do banco de dados
 Crie um banco de dados MySQL com o nome _academyspring_, abra o arquivo application.properties, localizado em src/main/resources/application.properties e adicione os seguintes comandos ao arquivo:
 
-spring.datasource.url = jdbc:mysql://localhost:3306/academyspring?useTimezone=true&serverTimezone=UTC
-spring.datasource.username = root
-spring.datasource.password = root
-spring.datasource.testWhileIdle = true
-spring.datasource.validationQuery = SELECT 1
+- spring.datasource.url = jdbc:mysql://localhost:3306/academyspring?useTimezone=true&serverTimezone=UTC
+- spring.datasource.username = root
+- spring.datasource.password = root
+- spring.datasource.testWhileIdle = true
+- spring.datasource.validationQuery = SELECT 1
 
 ## Execução
 Execute o projeto através do IDE, abra um navegador de sua preferência e digite: http://localhost:8080
