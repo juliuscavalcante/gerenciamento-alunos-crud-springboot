@@ -1,4 +1,4 @@
-# Projeto CRUD Springboot
+# Projeto CRUD Spring Boot
 
 ## Sobre o Projeto:
 
