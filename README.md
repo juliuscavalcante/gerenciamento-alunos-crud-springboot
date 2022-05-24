@@ -18,9 +18,19 @@ Uma aplicação web simples modelada no padrão MVC e construída com o Spring B
 
 ![demo](https://user-images.githubusercontent.com/89096854/170026187-57aa04f4-189b-4c00-8cc8-16a1227a5eb7.gif)
 
+### Formulário de Cadastro
+![formulario de cadastro](https://user-images.githubusercontent.com/89096854/170031976-645e9bd8-eaca-4a84-805c-588100e1a770.PNG)
+
+### Lista de Alunos
+![Lista de alunos](https://user-images.githubusercontent.com/89096854/170031981-68cf5454-a727-467c-82e6-1ba2f53c2900.PNG)
+
+
 ## Banco de Dados
 
+### Entidade Aluno
 ![Entidade Aluno](https://user-images.githubusercontent.com/89096854/170030916-5c05c8c3-71d7-432e-aa6c-02b0ccf30409.PNG)
+
+### Entidade Usuário
 ![Entidade Usuario](https://user-images.githubusercontent.com/89096854/170030921-8948e471-b0c1-4fcc-94aa-4bc94a554df9.PNG)
 
 ## Instalação
