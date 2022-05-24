@@ -45,7 +45,7 @@ Você pode criar um banco de dados MySQL com o nome o nome de sua preferência, 
 - spring.datasource.username = root
 - spring.datasource.password = root
 ```
-
+ 
 
 ## Execução
 Execute o projeto através do IDE, abra um navegador de sua preferência e digite: http://localhost:8080
