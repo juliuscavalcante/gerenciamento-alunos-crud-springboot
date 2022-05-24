@@ -16,5 +16,5 @@ Uma aplicação web simples modelada no padrão MVC e construída com o Spring B
 
 ## Demo
 
-![demo](https://user-images.githubusercontent.com/89096854/169869631-957c4899-7fc7-4e4c-87b9-0c9c64e87c01.gif)
+![demo](https://user-images.githubusercontent.com/89096854/170026187-57aa04f4-189b-4c00-8cc8-16a1227a5eb7.gif)
 
