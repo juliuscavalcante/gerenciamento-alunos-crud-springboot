@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
-
 import javax.validation.Valid;
 import java.util.List;
 
@@ -21,7 +20,7 @@ public class AlunoController {
     private AlunoRepository alunoRepository;
 
     @GetMapping("/inserirAlunos")
-    public ModelAndView InsertAlunos(Aluno aluno) {
+    public ModelAndView insertAlunos(Aluno aluno) {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("Aluno/formAluno");
         modelAndView.addObject("aluno", new Aluno());

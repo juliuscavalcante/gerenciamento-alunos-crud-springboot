@@ -1,4 +1,4 @@
-package br.com.gerenciamento.Enums;
+package br.com.gerenciamento.enums;
 
 public enum Turno {
 

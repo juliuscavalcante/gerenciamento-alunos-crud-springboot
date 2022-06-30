@@ -1,5 +1,7 @@
 package br.com.gerenciamento.exception;
 
+import java.io.Serial;
+
 public class EmailExistsException extends Exception {
 
 
@@ -7,5 +9,6 @@ public class EmailExistsException extends Exception {
         super(message);
     }
 
+    @Serial
     private static final long serialVersionUID = 1L;
 }

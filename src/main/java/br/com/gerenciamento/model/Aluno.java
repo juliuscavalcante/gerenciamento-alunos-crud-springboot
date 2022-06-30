@@ -1,8 +1,8 @@
 package br.com.gerenciamento.model;
 
-import br.com.gerenciamento.Enums.Curso;
-import br.com.gerenciamento.Enums.Status;
-import br.com.gerenciamento.Enums.Turno;
+import br.com.gerenciamento.enums.Curso;
+import br.com.gerenciamento.enums.Status;
+import br.com.gerenciamento.enums.Turno;
 import com.sun.istack.NotNull;
 
 import javax.persistence.*;

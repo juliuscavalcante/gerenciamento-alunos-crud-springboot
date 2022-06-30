@@ -29,7 +29,7 @@
                 </div>
             </div>
 
-                <!-- Curso -->
+
             <div class="row">
                 <div class="col-md-6 form-group offset-md-3">
                 <div class="alert alert-danger" role="alert" th:if="${#fields.hasErrors('curso')}">
@@ -38,7 +38,7 @@
                 <label>Selecione o Curso: </label>
                 <select class="form-control" th:field="*{curso}">
 
-                    <option th:each="curso : ${T(br.com.gerenciamento.Enums.Curso).values()}"
+                    <option th:each="curso : ${T(br.com.gerenciamento.enums.Curso).values()}"
                     th:value="${curso}" th:text="${curso}"></option>
 
                     </select>
@@ -65,7 +65,7 @@
                     </div>
                         <label>Selecione o Turno: </label>
                         <select class="form-control" th:field="*{turno}">
-                            <option th:each="turno : ${T(br.com.gerenciamento.Enums.Turno).values()}"
+                            <option th:each="turno : ${T(br.com.gerenciamento.enums.Turno).values()}"
                                     th:value="${turno}" th:text="${turno}"></option>
                         </select>
                     </div>
@@ -79,7 +79,7 @@
                     </div>
                         <label>Selecione o Status: </label>
                         <select class="form-control" th:field="*{status}">
-                            <option th:each="status : ${T(br.com.gerenciamento.Enums.Status).values()}"
+                            <option th:each="status : ${T(br.com.gerenciamento.enums.Status).values()}"
                             th:value="${status}" th:text="${status}"></option>
                         </select>
                     </div>

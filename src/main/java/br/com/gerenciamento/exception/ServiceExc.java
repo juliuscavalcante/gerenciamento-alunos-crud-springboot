@@ -1,5 +1,7 @@
 package br.com.gerenciamento.exception;
 
+import java.io.Serial;
+
 public class ServiceExc extends Exception {
 
     public ServiceExc(String message) {
@@ -7,5 +9,6 @@ public class ServiceExc extends Exception {
     }
 
 
+    @Serial
     private static final long serialVersionUID = 1L;
 }
