@@ -1,4 +1,4 @@
-![Badge em Desenvolvimento]<img src="https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-yellow"/>
+<img src="https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-yellow"/>
 
 # Projeto CRUD Spring Boot
 
